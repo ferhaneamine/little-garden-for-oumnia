@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff4f0">
+  <meta name="description" content="A little garden made with love, just for Oumnia.">
+  <title>For Oumnia ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petal-layer" id="petals" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home">for Oumnia <span>♥</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#flowers">Flowers</a><a href="#letter">Letter</a><a href="#surprise">Surprise</a>
+    </nav>
+    <button class="music-toggle" id="musicToggle" aria-label="Go to music" title="Go to music">♫</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">A little something, made with love</p>
+        <h1>A little world<br><em>just for Oumnia.</em></h1>
+        <div class="tiny-heart">♥</div>
+        <p class="hero-sub">If I could give you a garden, I'd fill it with every pink peony that reminds me of you.</p>
+        <a class="button" href="#flowers">Come into our garden <span>♡</span></a>
+      </div>
+      <div class="hero-art" aria-label="A dreamy garden with a little pony">
+        <div class="sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div>
+        <div class="castle">⌂</div>
+        <div class="pony"><span class="pony-mane">〰</span><span class="pony-eye">•</span><span class="pony-blush"></span><span class="pony-tail">〰</span></div>
+        <div class="flower f1">✿</div><div class="flower f2">✿</div><div class="flower f3">✿</div><div class="flower f4">✿</div><div class="flower f5">✿</div>
+        <div class="floating-note">for Oumnia<br>with love <span>♡</span></div>
+      </div>
+      <div class="scroll-cue">SCROLL A LITTLE <span>↓</span></div>
+    </section>
+
+    <section class="section flowers-section" id="flowers">
+      <p class="eyebrow">Picked just for you</p>
+      <h2>Pink peonies for <em>my favorite girl.</em></h2>
+      <p class="section-intro">A big, fluffy bouquet of pink peonies for someone who makes my world brighter.</p>
+      <div class="bouquet-wrap">
+        <div class="bouquet-glow"></div>
+        <div class="bouquet" role="img" aria-label="A bouquet of pink peonies">
+          <span class="stem s1"></span><span class="stem s2"></span><span class="stem s3"></span>
+          <span class="leaf l1">♥</span><span class="leaf l2">♥</span><span class="leaf l3">♥</span>
+          <span class="peony p1"><i></i></span><span class="peony p2"><i></i></span><span class="peony p3"><i></i></span>
+          <span class="peony p4"><i></i></span><span class="peony p5"><i></i></span>
+          <span class="peony p6"><i></i></span><span class="peony p7"><i></i></span><span class="peony p8"><i></i></span>
+          <div class="wrap-paper"></div><div class="bouquet-ribbon"></div>
+          <div class="bouquet-tag">Oumnia<br>my peony girl ♡</div>
+        </div>
+      </div>
+      <button class="button button-light" id="bloomButton">Make the flowers bloom <span>✿</span></button>
+      <p class="microcopy" id="bloomMessage">One little peony for every reason I adore you.</p>
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="letter-deco deco-left">✿</div><div class="letter-deco deco-right">✿</div>
+      <p class="eyebrow">From Amine, with love</p>
+      <h2>A little <em>love letter.</em></h2>
+      <article class="letter-card">
+        <div class="letter-top">♡ &nbsp; just for Oumnia &nbsp; ♡</div>
+        <p class="script">My Oumnia,</p>
+        <p>I made this little garden just for you, so you can have a tiny piece of my heart whenever you need a smile.</p>
+        <p>If I could, I'd give you a whole field of pink peonies — one for every little thing that makes you special, and a thousand more for all the things words can't explain.</p>
+        <p>I hope this page makes you feel loved, because you deserve softness, happiness, and all the beautiful things in the world. Thank you for being you and for making my world a little more magical we jss bli tawlt sorry about that .</p>
+        <p class="script signoff">Yours, Amine <span>♥</span></p>
+        <button class="text-button" id="editLetter">Make this letter even more personal ✎</button>
+      </article>
+    </section>
+
+    <section class="music-section section" id="music">
+      <p class="eyebrow">Our little soundtrack</p>
+      <h2>A song for <em>Oumnia.</em></h2>
+      <div class="music-card">
+        <div class="record"><span>♡</span></div>
+        <div class="track-info"><span class="track-label">Picked by Amine, for you</span><strong id="trackName">Our special song</strong><small>Press play when you're ready</small></div>
+        <button class="play-button" id="playButton" aria-label="Play or pause music">▶</button>
+      </div>
+      
+<audio id="ourSong" preload="auto" src="our-song.mp3"></audio>
+
+
+    <section class="surprise-section section" id="surprise">
+      <div class="surprise-sparkle">✧</div>
+      <p class="eyebrow">One last little thing</p>
+      <h2>A tiny surprise <em>for you.</em></h2>
+      <p class="section-intro">Your little garden friend has been keeping something safe just for you.</p>
+      <button class="surprise-pony" id="ponyButton" aria-label="Open Oumnia's surprise"><span class="pony-face">♡</span><span class="pony-body"></span><span class="pony-flower">✿</span></button>
+      <p class="microcopy">Tap the little pony, Oumnia ♡</p>
+      <div class="surprise-reveal" id="surpriseReveal" hidden>
+        <div class="envelope">💌</div>
+        <h3>Oumnia, you make my world bloom.</h3>
+        <p>If I had to choose all over again, I'd still choose you. Today, tomorrow, and in all the little moments in between love you pitita mwahhhhhhhhhhhhhhhhhhhh. ♡</p>
+        <span class="big-heart">♥</span>
+        <p class="script final-signature">With love, Amine</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Made with all my love by Amine</span><span class="footer-heart">♥</span><span>just for Oumnia, always.</span></footer>
+
+  <dialog id="letterDialog">
+    <form method="dialog" class="dialog-card">
+      <button class="close-dialog" aria-label="Close">×</button>
+      <p class="eyebrow">Add your own words</p><h2>Your words, <em>your story.</em></h2>
+      <label for="customMessage">Your personal message</label><textarea id="customMessage" rows="6" placeholder="Write a memory, an inside joke, or something you want Oumnia to know..."></textarea>
+      <button class="button" id="saveLetter" value="save">Update the letter ♡</button>
+      <p class="microcopy">This updates the preview in your browser. To keep it on the published website, copy your message into index.html as well.</p>
+    </form>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
